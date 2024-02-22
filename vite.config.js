@@ -7,7 +7,7 @@ require("dotenv").config({ path: path.resolve(__dirname, ".env.local") });
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/sentry-test/',
+  base: "/sentry-test/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
@@ -18,11 +18,13 @@ export default defineConfig({
     project: "javascript-vue",
     release: {
       name: "0.0.0",
-      cleanArtifacts: true,
+    },
+    sourcemaps: {
+      filesToDeleteAfterUpload: ["**/*.js.map"]
     },
     authToken: "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",
   }), vue()],
   build: {
-    sourcemap: 'hidden',
+    sourcemap: "hidden",
   },
 });
