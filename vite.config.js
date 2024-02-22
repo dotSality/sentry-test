@@ -22,6 +22,6 @@ export default defineConfig({
     authToken: "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",
   })],
   build: {
-    sourcemap: true,
+    sourcemap: 'hidden',
   },
 });
