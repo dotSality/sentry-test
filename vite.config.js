@@ -7,6 +7,7 @@ require("dotenv").config({ path: path.resolve(__dirname, ".env.local") });
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/sentry-test/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

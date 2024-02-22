@@ -1,12 +1,15 @@
 {
   "name": "application-monitoring-in-vue-js-with-sentry",
   "version": "0.0.0",
+  "homepage": "https://dotSality.github.io/sentry-test/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
-    "format": "prettier .  --write"
+    "format": "prettier .  --write",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@sentry/vue": "^7.102.0",
