@@ -1,2 +1,1 @@
 import{_ as c,c as n,o as s,a as o}from"./index-Df1QeOfK.js";(function(){try{var e=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},t=new Error().stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]="6482c46c-00c1-4793-a24e-59ce917ebda2",e._sentryDebugIdIdentifier="sentry-dbid-6482c46c-00c1-4793-a24e-59ce917ebda2")}catch{}})();const d={},r=o("h1",{class:"text-4xl"},"About",-1),a=[r];function _(e,t){return s(),n("div",null,a)}const l=c(d,[["render",_]]);export{l as default};
-//# sourceMappingURL=About-C45vuB7z.js.map
