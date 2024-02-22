@@ -13,14 +13,15 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  plugins: [vue(), sentryVitePlugin({
+  plugins: [sentryVitePlugin({
     org: "test-lyz",
     project: "javascript-vue",
     release: {
       name: "0.0.0",
+      cleanArtifacts: true,
     },
     authToken: "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",
-  })],
+  }), vue()],
   build: {
     sourcemap: 'hidden',
   },
